@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+</head>
+<body onload="table()">
+    <nav>
+        <div id="logo">
+            <a href="./index.html"><img src="./logo.png" alt=""></a>
+        </div>
+        <div id="list">
+            <ul type="none">
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./appoint.html">Book Appointments</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Appointment</a></li>
+                <li><i class="fa-solid fa-phone"></i></li>
+                <li><i class="fa-solid fa-location-dot"></i></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" id="menu" onclick=" return open()"></i>
+    </nav><br><br><br> <br>
+    <center><h1>Appointments</h1></center>
+    <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Contact</th>
+              <th>Service</th>
+              <th>Date</th>
+              <th>Time</th>
+              <th>Delete</th>
+              <th>Update</th>
+
+            </tr>
+          </thead>
+          <tbody id="output">
+          </tbody>
+        </table> 
+        <br><br><br>
+        <div id="edit">
+         
+        </div>
+        <br><br><br><br><br> 
+        <div id="foot">
+            <center>
+                <h1>Caution Notice</h1>
+            </center><br><br>
+            <p>Please Be Aware: Cyber crime, particularly fraudulent communications through phone, SMS, WhatsApp, emails,
+                etc. with third parties impersonating as a genuine organization or brand to financially dupe consumers is on
+                the rise.</p><br><br>
+            <p>Unilever does not request for payment for purchase of our products outside our platform for any promotional
+                activity. We also do not request for payments to participate in any contest, luck draw, free gifts. Hence,
+                we request all consumers to be cautious in the event of any such communications. You can reach out to our
+                customer care listed on our platform to verify any suspicious activity.</p><br><br>
+            <p>Note: You can also report any suspected fraudulent telecommunications on Chaksu Portal, to the Department of
+                Telecommunications (DOT).</p><br>
+                <hr><br>
+    <center><h1>Urban Salon</h1><br></center>
+                <hr><br>
+        </div>
+        <footer>
+            <div>
+                © 2024 Unilever. All rights reserved.
+            </div>
+             <div>Terms and Conditions || Privacy Notice </div>
+        </footer> 
+
+        <script src="./script.js"></script>
+</body>
+</html>

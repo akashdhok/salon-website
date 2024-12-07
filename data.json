@@ -1,0 +1,68 @@
+{
+  "task": [
+    {
+      "name": "Akash dhok",
+      "contact": "8518042728",
+      "services": "Hair cutting",
+      "date": "2024-12-06",
+      "time": "11:16",
+      "id": "2cda"
+    },
+    {
+      "name": "Ankur Chaturvedi",
+      "contact": "7896541230",
+      "services": "Face Massage",
+      "date": "2024-12-07",
+      "time": "11:36",
+      "id": "e4af"
+    },
+    {
+      "id": "ee50",
+      "name": "Anshuman",
+      "contact": "1236547890",
+      "services": "Beard Setting",
+      "date": "2024-12-09",
+      "time": "12:17"
+    },
+    {
+      "id": "2885",
+      "name": "Harshit",
+      "contact": "4563217890",
+      "services": "Face Scrub",
+      "date": "2024-12-13",
+      "time": "13:20"
+    },
+    {
+      "id": "0246",
+      "name": "Kisan",
+      "contact": "7896541230",
+      "services": "Face Massage",
+      "date": "2024-12-17",
+      "time": "12:18"
+    },
+    {
+      "id": "4a78",
+      "name": "Anshul",
+      "contact": "8518042728",
+      "services": "Hair Cutting",
+      "date": "2024-12-27",
+      "time": "11:19"
+    },
+    {
+      "id": "a04e",
+      "name": "Amir",
+      "contact": "7896541230",
+      "services": "Face Scrub",
+      "date": "2024-12-15",
+      "time": "12:26"
+    },
+    {
+      "id": "d4aa",
+      "name": "Dhruv",
+      "contact": "7896541230",
+      "services": "Face Scrub",
+      "date": "2024-12-14",
+      "time": "12:52"
+    }
+  ]
+}
